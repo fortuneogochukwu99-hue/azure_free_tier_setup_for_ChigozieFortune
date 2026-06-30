@@ -49,7 +49,25 @@ The Azure Portal provides access to many cloud services including:
 
 The search bar at the top of the portal can be used to quickly locate any Azure service.
 
----
+# Step 2A: Creating a Custom Dashboard
+
+To improve monitoring and navigation, I created a custom Azure Dashboard.
+
+Steps followed:
+
+1. Opened the Dashboard service in the Azure Portal.
+2. Selected *Create a dashboard*.
+3. Named the dashboard *3MTT Cloud Dashboard*.
+4. Added useful tiles including:
+   - Resource Groups
+   - All Resources
+   - Metrics Chart
+   - Clock
+5. Saved the dashboard successfully.
+
+*Screenshot*
+
+![Custom Dashboard](Azure-custom-dashboard.png)
 
 # Step 3: Creating a Resource Group
 
@@ -129,17 +147,22 @@ From the Cost Management + Billing page users can:
 
 ---
 
-# Step 7: Budget Alert (75%)
+# Step 7: Creating a Budget Alert
 
-A Budget Alert helps notify users before Azure credits are exhausted.
+To prevent unexpected charges, I configured a budget alert.
 
-For this project, the budget alert should be configured to notify the user once 75% of the Azure Free Tier credit has been used.
+Steps followed:
 
-This helps prevent unexpected charges.
+1. Opened *Cost Management + Billing*.
+2. Selected my Azure subscription.
+3. Opened *Budgets*.
+4. Created a new monthly budget.
+5. Configured an alert to trigger at *75%* of the budget.
+6. Saved the budget successfully.
 
-(Insert screenshot here after creating the budget.)
+*Screenshot*
 
----
+![Budget Alert](Budgets-Azure.png)
 
 # Step 8: Multi-Factor Authentication (MFA)
 
