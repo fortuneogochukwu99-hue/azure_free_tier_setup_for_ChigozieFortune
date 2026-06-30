@@ -1,7 +1,7 @@
 # Azure Free tier Setup project
 ## Project overview
 This project demonstrates the successful creation of an Azure Free tier account and the deployment of a storage account using Azure portal
-#Steps completed
+# Steps completed
 -Created a Microsoft Free Tier account.
 -Created a resource group
 -Created a storage account
@@ -9,7 +9,7 @@ This project demonstrates the successful creation of an Azure Free tier account 
 -Verified Microsoft entra ID
 -Uploaded evidence screenshots to Github
 
-##Screenshots
+## Screenshots
 Azure dashboard
 Resource group
 Storage account
