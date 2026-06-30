@@ -162,7 +162,7 @@ Steps followed:
 
 *Screenshot*
 
-![Budget Alert](Budgets-Azure.png)
+![Budget Alert](Budget.png)
 
 # Step 8: Multi-Factor Authentication (MFA)
 
