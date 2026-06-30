@@ -1,26 +1,189 @@
-# Azure Free tier Setup project
-## Project overview
-This project demonstrates the successful creation of an Azure Free tier account and the deployment of a storage account using Azure portal
-# Steps completed
--Created a Microsoft Free Tier account.
--Created a resource group
--Created a storage account
--Configured billing successfully
--Verified Microsoft entra ID
--Uploaded evidence screenshots to Github
+# Azure Free Tier Account Setup Project
 
-## Screenshots
-Azure dashboard
+## Project Overview
+
+This project demonstrates the successful creation of a Microsoft Azure Free Tier account and the deployment of cloud resources using the Azure Portal.
+
+The objective of this project was to:
+
+- Create a Microsoft Azure Free Tier account.
+- Verify the account using email, phone number and payment card.
+- Explore the Azure Portal.
+- Create a Resource Group.
+- Deploy an Azure Storage Account.
+- Understand Azure Cost Management and Billing.
+- Upload project evidence to GitHub.
+
+---
+
+# Step 1: Creating a Microsoft Azure Free Tier Account
+
+1. Visited the Microsoft Azure website.
+2. Clicked *Start Free*.
+3. Signed in using a Microsoft account.
+4. Verified my email address.
+5. Verified my phone number using the OTP code sent by Microsoft.
+6. Added a valid payment card for identity verification.
+7. Accepted the Microsoft Azure terms and conditions.
+8. Successfully activated the Azure Free Tier account.
+
+*Screenshot*
+
 ![Azure Dashboard](azure-dashboard.png)
-Resource group
-![Resource Group](resource-group(Azure).png)
-Storage account
-![Storage Account](storageaccount-Azure.png)
-Microsoft entra
-![Microsoft Entra ID Users](entra_users(Azure).png)
-Cost management and billing
-![Cost Management and Billing](cost_mgt(Azure).png)
 
-## Author
-Chigozie Fortune Ogochukwu
-3MTT Cloud computing fellow
+---
+
+# Step 2: Exploring the Azure Portal
+
+After signing in, I explored the Azure Portal.
+
+The Azure Portal provides access to many cloud services including:
+
+- Virtual Machines (Compute)
+- Storage Accounts
+- Networking
+- Databases
+- Resource Groups
+- Cost Management + Billing
+- Microsoft Entra ID
+
+The search bar at the top of the portal can be used to quickly locate any Azure service.
+
+---
+
+# Step 3: Creating a Resource Group
+
+Steps followed:
+
+1. Searched for *Resource Groups*.
+2. Selected *Create*.
+3. Selected my Azure subscription.
+4. Entered the Resource Group name.
+5. Selected *South Africa North* as the region.
+6. Clicked *Review + Create*.
+7. Clicked *Create*.
+
+The Resource Group was successfully deployed.
+
+*Screenshot*
+
+![Resource Group](resource-group(Azure).png)
+
+---
+
+# Step 4: Creating an Azure Storage Account
+
+Steps followed:
+
+1. Searched for *Storage Accounts*.
+2. Clicked *Create*.
+3. Selected my subscription.
+4. Selected the Resource Group.
+5. Entered a globally unique Storage Account name.
+6. Selected the deployment region.
+7. Chose Standard Performance.
+8. Selected the replication option.
+9. Clicked *Review + Create*.
+10. Successfully deployed the Storage Account.
+
+*Screenshot*
+
+![Storage Account](storageaccount-Azure.png)
+
+---
+
+# Step 5: Microsoft Entra ID
+
+Microsoft Entra ID is Azure's identity and access management service.
+
+It is used to:
+
+- Manage users
+- Manage authentication
+- Control permissions
+- Secure cloud resources
+
+I successfully accessed Microsoft Entra ID and verified my user account.
+
+*Screenshot*
+
+![Microsoft Entra ID](entra_users(Azure).png)
+
+---
+
+# Step 6: Cost Management and Billing
+
+Azure provides Cost Management tools that help monitor cloud spending.
+
+From the Cost Management + Billing page users can:
+
+- View subscriptions
+- Monitor spending
+- Create budgets
+- Configure billing alerts
+- View invoices
+
+*Screenshot*
+
+![Cost Management](cost_mgt(Azure).png)
+
+---
+
+# Step 7: Budget Alert (75%)
+
+A Budget Alert helps notify users before Azure credits are exhausted.
+
+For this project, the budget alert should be configured to notify the user once 75% of the Azure Free Tier credit has been used.
+
+This helps prevent unexpected charges.
+
+(Insert screenshot here after creating the budget.)
+
+---
+
+# Step 8: Multi-Factor Authentication (MFA)
+
+Multi-Factor Authentication provides additional security by requiring another verification method besides a password.
+
+Examples include:
+
+- Microsoft Authenticator App
+- SMS verification
+- Phone call verification
+
+Using MFA significantly improves account security and is recommended for every Azure account.
+
+---
+
+# Step 9: Azure Free Tier Services
+
+Some Azure Free Tier services include:
+
+| Service | Free Limit |
+|----------|------------|
+| Virtual Machines | 750 hours |
+| Blob Storage | 5 GB |
+| Azure SQL Database | 250 GB |
+| Functions | 1 Million requests |
+| Bandwidth | 15 GB outbound |
+
+---
+
+# Lessons Learned
+
+During this project I learned:
+
+- How to create a Microsoft Azure account.
+- How to navigate the Azure Portal.
+- How Resource Groups organize Azure resources.
+- How to deploy a Storage Account.
+- The importance of Cost Management.
+- The importance of securing cloud resources using Multi-Factor Authentication.
+
+---
+
+# Conclusion
+
+This project successfully demonstrated the setup of a Microsoft Azure Free Tier account, deployment of Azure resources, navigation of the Azure Portal, and understanding of basic cloud management features.
+
+The screenshots included provide evidence that each task was completed successfully.
